@@ -94,6 +94,8 @@ The rule has no options.
 
 [eslint-plugin-prefer-object-params](https://github.com/jagreehal/eslint-plugin-prefer-object-params) covers the same idea with a configurable threshold and ignore lists, but does not skip callbacks.
 
+[eslint-plugin-signature-design](https://github.com/Vladyslav-Soldatenko/eslint-plugin-signature-design) forbids several parameters of the same type, a narrower take on the same problem.
+
 ## License
 
 MIT
