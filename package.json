@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-object-params",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "ESLint and oxlint rule: functions take a single object parameter instead of positional ones, callbacks excepted.",
   "type": "module",
   "exports": {
