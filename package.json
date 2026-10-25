@@ -1,0 +1,54 @@
+{
+  "name": "eslint-plugin-object-params",
+  "version": "0.1.0",
+  "description": "ESLint and oxlint rule: functions take a single object parameter instead of positional ones, callbacks excepted.",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "oxlint",
+    "object-params",
+    "named-parameters",
+    "max-params"
+  ],
+  "author": "Arthur Delbeke",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adelbeke/eslint-plugin-object-params.git"
+  },
+  "bugs": "https://github.com/adelbeke/eslint-plugin-object-params/issues",
+  "homepage": "https://github.com/adelbeke/eslint-plugin-object-params#readme",
+  "engines": {
+    "node": ">=20"
+  },
+  "peerDependencies": {
+    "eslint": "^9 || ^10"
+  },
+  "peerDependenciesMeta": {
+    "eslint": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^8.72.0",
+    "eslint": "^10.13.0",
+    "oxlint": "^1.89.0"
+  },
+  "packageManager": "pnpm@12.4.2"
+}
