@@ -170,7 +170,7 @@ importers:
         specifier: ^8.72.0
         version: 8.72.0(eslint@10.13.0)(typescript@6.0.3)
       eslint:
-        specifier: ^9 || ^10
+        specifier: ^10.13.0
         version: 10.13.0
       oxlint:
         specifier: ^1.89.0
